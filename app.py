@@ -1,4 +1,4 @@
-import tkinter 
+ 
 from tkinter import ttk, messagebox
 import pandas
 import talib
@@ -34,7 +34,7 @@ class StockSignalApp:
             symbol = self.symbol_entry.get()
             self.signal_text.delete(1.0, tk.END)
             self.signal_text.insert(tk.END, "Fetching data and generating signals...\n")
-
+            
             df = self.get_sample_data(symbol)
             signals = self.generate_signals(df)
             self.signal_text.insert(tk.END, "Signals:\n")
