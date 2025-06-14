@@ -1,7 +1,7 @@
 import pandas
 import numpy 
 import requests
-import BeautifulSoup4
+from bs4 import BeautifulSoup4
 import yfinance
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
