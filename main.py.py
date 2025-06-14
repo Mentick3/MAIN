@@ -1,6 +1,7 @@
 import pandas
 import numpy 
 import requests
+from bs4 import beautifulsoup
 import yfinance
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
