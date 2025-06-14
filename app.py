@@ -1,6 +1,6 @@
-import tkinter as tk
+import tkinter 
 from tkinter import ttk, messagebox
-import pandas as pd
+import pandas
 import talib
 import yfinance as yf
 import matplotlib.pyplot as plt
